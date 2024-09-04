@@ -1,0 +1,16 @@
+"use strict" // treat all JS code as newer version of code
+
+//data types :-
+
+// number - 2 (range 2 ki power 53)
+// bigint (used for trading for a very big number)
+//string  - ""
+// boolean - true or false , just has these two values like yes or no 
+// null - standalone value , khali (it is a object)
+// undefined - value not defined
+// symbol - for uniqueness 
+
+//object
+
+console.log(typeof null)
+

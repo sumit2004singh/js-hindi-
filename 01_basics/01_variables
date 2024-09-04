@@ -1,0 +1,10 @@
+const accountId =144553  // cannot be defined again later , as it is fixed now 
+
+let accountEmail = "sumitsingh9811456@gmail.com" // can be defined again later
+
+var accountPassword = "12345" 
+
+// prefer not to use var bcoz of issue in block scope and functional scope 
+
+let accountstate; // left after semicolon means that it is undefined 
+console.log(accountstate); // if you will print that then you will find out that it was undefined 
