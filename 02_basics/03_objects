@@ -1,0 +1,87 @@
+// Singleton
+// Object.create
+// [this is for getting symbol type ]
+
+const mysym = Symbol("key1") ; 
+
+const jsuser ={
+    "full name" : "sumit singh" ,
+    [mysym]: "mykey1" ,
+    name: "sumit" ,
+    age : 20 ,
+    location : 'delhi' ,
+    email:'sumitsingh981156@gmail.com'
+}
+
+// console.log(jsuser["full name"])
+// //this cannot be accesed by the use of console.log(jsuser.full name ) , so we need to rememeber this [] method .
+// console.log(jsuser["email"])
+// console.log(jsuser.email);
+// console.log(jsuser[mysym]);
+
+
+// jsuser.email = "sumityo@gmail.com" 
+// Object.freeze(jsuser);
+//22 helps to freeze the obj. so that no more chnges can be made in the obj.
+// jsuser.email = "sumitgonnaamd@gmail.com" 
+// console.log(jsuser.email);
+
+// jsuser.greeting = function(){
+//     console.log('hello js user');
+// }
+
+// jsuser.greeting2 = function(){
+//     console.log(`hello js user , ${this.name} .`);
+// }
+
+// console.log(jsuser.greeting());
+// console.log(jsuser.greeting2());
+
+//_______________________________________________________________________________
+
+// const iguser = new Object() ; [this is a singleton object] - need to remember this 
+const iguser = {} ;
+// [this is not ] 
+iguser.id ="123abc"
+iguser.name = "sumit"
+iguser.age = 20
+
+// console.log(iguser);
+
+const o1 ={
+    1: "a" ,
+    2: "b"
+}
+const o2 = {
+    3:"w" ,
+    4:"o"
+}
+
+// const o3 = {o1 , o2} ; [this will give us the messed values as it will take o1 a o2 as index 1 and 2]
+// const o3 = Object.assign(o1 , o2) ; [this will give a neat and clean obj.]
+
+const o3 = {...o1 , ...o2}
+//this spread object thing is very good , gives neat and clean single obj.
+
+// console.log(o3);
+
+// console.log(iguser)
+
+// console.log(Object.keys(iguser))
+// console.log(Object.values(iguser))
+// console.log(Object.entries(iguser))
+
+//_______________________________________________________________________________
+
+const course = {
+    coursename: "js hindi by hc",
+    price : "999" ,
+    student: "sumit"
+}
+console.log(course.student); 
+//this is boring to take out values like this , so...
+
+const {student:s} = course
+//destructor of code
+// console.log(s)
+
