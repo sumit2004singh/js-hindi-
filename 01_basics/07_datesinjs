@@ -1,0 +1,12 @@
+
+
+// let myDate = new Date()  [it is an object type]
+// console.log(myDate)
+// console.log(myDate.toString())
+// console.log(myDate.toDateString()) ; [thsi gives exact date in very simple format ]
+
+// let date = new Date("01-21-2024") ;
+// console.log(date.toString()) ;
+
+let yulu =  Date.now()/1000
+console.log(Math.floor(yulu))
