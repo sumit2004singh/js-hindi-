@@ -1,0 +1,28 @@
+// console.log( 2 > 1) = true 
+
+// conversion converts null to a number and treat it as 0 .
+
+// data types 
+
+// primitve
+
+// -- String , Number , Boolean , null , undefined , Symbol , BigInt
+
+// reference or non-primitive
+
+// Array , Objects , Functions
+
+// const heros =  [ "shaktimaan" , "naagraj" , "doga"]
+
+// let myobj = {
+//     key: value ; 
+//     like ,
+//     name = "sumit" ,
+//     age = 21
+//  }
+
+// const myFunction = function () {
+//     console.log("hello world")
+// }
+
+// Imp - data typ of null is always object and datatype(typeof) of array and objetc is also object .  datatype of function is object function  ...
