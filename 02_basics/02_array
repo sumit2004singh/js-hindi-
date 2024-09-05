@@ -1,0 +1,29 @@
+const marvelheros = ["thor" , "ironman" , "spiderman"]
+const dc = ["superman" , "flash" , "batman"]
+
+// array can take anything inside it as an obj and has taken the whole dc index as a single ince 
+
+// marvelheros.push(dc)
+
+// console.log(marvelheros);
+
+const allheros = marvelheros.concat(dc)
+console.log(allheros)
+//both concat and spread method adds each index neatly and does'nt pass the whole complete array
+
+// const allnewheros = [...marvelheros , ...dc]
+// console.log(allnewheros)
+
+// marvelheros.push(dc)
+// console.log(marvelheros.flat(Infinity)); [spread out all the inside arrays and gives yopu a single Array]
+
+// console.log(Array.isArray("sumitsinghchauhanthakur"));
+// console.log(Array.from("sumitsinghchauhanthakur"));
+// console.log(Array.from({name:"sumitsinghchauhanthakur"}));
+// [20 is asking that is that a array?no . 21 is making a neat and clean array of letters . 23 will return an empty array as cannot make an array from that (imp.) ]
+
+let s1 = 100 
+let s2 = 200
+let s3 = 300
+
+console.log(Array.of(s1 , s2 , s3));
