@@ -1,0 +1,33 @@
+// Array
+
+const myarr = [ 9 , 1 , 2 , 3 , 4 ]
+//  console.log(myarr[0])
+
+//  array methods
+
+// myarr.push(8);
+// console.log(myarr);
+
+// myarr.pop()
+
+// myarr.unshift(3)
+// myarr.shift()
+
+// console.log(myarr.includes(9))
+// console.log(myarr.indexOf(0))
+
+// const newarr = myarr.join() ;
+
+// console.log(newarr) ;
+
+// slice , splice
+
+// console.log("A " , myarr) ;  [ in slice(a,b) a is starting point and that digit is included and b is last point an dis not include but in splice the last digit(b) is also included , and imp diff. is that those splice digits and taken out of the previous Array ]
+
+// const myn1 =  myarr.slice(1, 3)
+// console.log("B " , myarr)
+// console.log(myn1)
+
+// const myn2 = myarr.splice(1,3)
+// console.log("C " , myarr)
+// console.log(myn2)
