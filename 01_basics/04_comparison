@@ -26,3 +26,15 @@
 // }
 
 // Imp - data typ of null is always object and datatype(typeof) of array and objetc is also object .  datatype of function is object function  ...
+
+// ------------------------------------------ Memory ------------------------------------------------------------
+
+
+// Stack (Primitive) , Heap (non-primitive) 
+
+// in stack memory a copy of the same is given if that function is called again but -
+// if the same is called in stack memory then the  reference of the funtion is given which mean sthat if you will change anything in that 
+//then you will be changing the previous functiuon or updating tha same . in stack after chngin gif you will call the previous one then you will find the previous unupdated value
+
+
+

@@ -1,0 +1,25 @@
+const name = "sumit"
+ const age = 20
+// console.log( name + age + "devotee")
+
+// nowdays this method is not used . backtek method is used -
+
+// console.log(`hello my name is ${name} and my age is ${age} and i want to be devotee`)
+
+// const gamename = new String('sumitsingh   ')
+// console.log(gamename[1])
+// console.log(gamename.__proto__)
+
+// console.log(gamename.length)
+// console.log(gamename.toUpperCase())
+// console.log(gamename.charAt(2));
+// console.log(gamename.indexOf('t'));
+// console.log(gamename.substring(0,5));
+
+// console.log(gamename.slice(-9,8)); (from,to)
+
+// console.log(gamename.trim()); (remove extra sapces)
+
+// console.log(gamename.replace("singh" , "chauhanthakur"))
+// console.log(gamename.includes("sumit"));
+
