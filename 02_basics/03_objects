@@ -81,7 +81,6 @@ const course = {
 console.log(course.student); 
 //this is boring to take out values like this , so...
 
-const {student:s} = course
+// const {student:s} = course
 //destructor of code
 // console.log(s)
-

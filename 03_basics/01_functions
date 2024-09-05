@@ -1,0 +1,13 @@
+
+
+console.log("s");
+console.log("u");
+console.log("m");
+console.log("i");
+console.log("t");
+console.log("b");
+console.log("h");
+console.log("k");
+console.log("t");
+
+function saymyname ()
