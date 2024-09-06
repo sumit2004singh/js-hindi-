@@ -1,0 +1,26 @@
+JAVASCRIPT EXECUTION CONTEXT
+
+- GLOBAL EXECUTION CONTEXT [ for browser it is "window" ]
+- FUNCTION EXECUTION CONTEXT
+- EVL EXECUTION CONTEXT
+
+code is there in js
+
+it runs in two phases 
+first is - "memory creation phase"
+second is - "execution phase"
+
+global execution ==>> this 
+memory phase ==>> memory is stored , can say keys will be taken from code and value assigned will be like undefined , but in case of fnx. it will go as a defination .
+
+execution phase ==>> value will be assined (10 , string ...) to those keys (val=)
+
+if a fnx is there then a seperate new executional content will be formed for that and new variale environment and execution thread will be formed . again memory creation phase and execution phase will be formed for that function . 
+
+once one line is executed in the new executional content that was formed for the fnx. , will be deleted as the result is now formed and then the another line will be executed .
+
+
+
+
+
+
