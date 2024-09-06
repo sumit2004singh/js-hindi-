@@ -1,0 +1,41 @@
+// the basic conclusion is that the const and let variables are block scope variable an dthe var variable is global scope variable .
+ 
+// the declaratons in the global scope can be used outside of the funx. or in the block scope but block scope variables(let , const) cannot be used out the block scope
+
+// outer scope variables can be used inside the inner fnx. but inner scope variablers cannot be used outside of that inner variable ; best ex. is of a fnx. inside a fnx.  
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//arrow funx
+
+// const addtwo = (n1 , n2) => {
+//     return n1 + n2 
+// }
+// console.log(addtwo(4, 16));
+// // this was an arrow funx .
+
+// const addtwo = (n1 , n2) =>  n1 + n2 
+
+// this is an implicit return that u know that u are gon areturn that an dno need to use return and curly braces
+
+//const addtwo = (n1 , n2) =>  (n1 + n2) ; [this is also acceptable and even is same ] 
+
+//inside these paranthesis() , even a object can be be passed , so that is why it is very useful . like-
+
+// const addtwo = (n1 , n2) => ({username:"hitesh"}) 
+
+// console.log(addtwo(4, 16))
+
+//IIFE - immediately invoked function expression
+
+// used to immediately invoke the function , imp - used to prevent from the bullution of global scope
+
+
+//put your whole funx into paranthesis and add () in last
+// like -
+
+// (const addtwo = (n1 , n2) => {
+//     return n1 + n2 
+// }) ()
