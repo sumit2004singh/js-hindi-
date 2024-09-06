@@ -1,5 +1,7 @@
+//function
 
-
+function saymyname () {
+    
 console.log("s");
 console.log("u");
 console.log("m");
@@ -9,5 +11,24 @@ console.log("b");
 console.log("h");
 console.log("k");
 console.log("t");
+}
+// console.log(saymyname());
 
-function saymyname ()
+function adder(n1 , n2) {
+    console.log(n1 + n2)
+}
+const addition = adder(2,3)
+/// this will give us the value of addition as undefined as the fnx. is not returning anything
+
+// function adder(n1 , n2) {
+//     let addition = n1 + n2
+//     return addition
+//     method3- return n1 + n2
+// }
+// console.log("addition=" , addition)
+
+function calculateCartPrice (...num1){
+    return num1
+}
+//here these ... represents rest method not sPREAD METHOD
+console.log(calculateCartPrice(200 , 300 , 400))
